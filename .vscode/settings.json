@@ -22,7 +22,8 @@
         ]
     },
     "gtest-adapter.debugConfig": [
-        "(gdb) Launch"
+        "(gdb) Buffer",
+        "(gdb) Template-Buffer"
     ],
     "gtest-adapter.supportLocation": true,
     "gtest-adapter.runAfterBuild": true
