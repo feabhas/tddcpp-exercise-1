@@ -28,5 +28,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Build and test
-        run: meson builddir && cd builddir && meson test
+        run: |
+          meson builddir 
+          cd builddir 
+          meson test
 
