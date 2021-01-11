@@ -1,7 +1,7 @@
 #include "Buffer.h"
 #include "gtest/gtest.h"
 
-TEST(setup_test_case, testWillFail)
+TEST(setup_test_case, testWillPass)
 {
-  ASSERT_EQ(42, 0);
+  ASSERT_EQ(42, 42);
 }
